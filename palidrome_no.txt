@@ -1,0 +1,8 @@
+1
+353 is a bipolian number of 345
+575 is a bipolian number of 567
+898 is a bipolian number of 890
+343 is a bipolian number of 342
+44 is a palindrome  number of 34
+66 is a palindrome  number of 56
+88 is a palindrome  number of 78
