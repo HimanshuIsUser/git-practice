@@ -15,6 +15,7 @@ def rohanmultiplication(t):
     for i in s:
         k = k+1
         o = t*k
+        index = []
         if (i==o):
             lst.append(i)
         else:
@@ -23,7 +24,10 @@ def rohanmultiplication(t):
     if(s==lst):
         print(f'both are equal :)')
     else:
-        print(f'Error!\ncheck the list for confirmation :( ')
+        print(f'Error!\ncheck the index no {n} :( ')
 if __name__ == '__main__':
-    t = int(input("enter the value : "))
-    rohanmultiplication(t)
+    try:
+        t = int(input("enter the value : "))
+        rohanmultiplication(t)
+    except Exception as e:
+        print(e)
